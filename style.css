@@ -58,7 +58,7 @@ body
 #csgo
 {
 	font-family: cs_regular;
-	font-size: 70px;
+	font-size: 75px;
 	width: 1000px;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -67,7 +67,7 @@ body
 #satis
 {
 	font-family: satisfontory;
-	font-size: 70px;
+	font-size: 60px;
 	width: 1000px;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -104,13 +104,14 @@ body
 	margin: 10px;
 	width: 230px;
 	height: 142px;
-	background-color: #FF5700;
+	background-color: #ffffff;
 	float: left;
 	text-align: center;
+	color: black;
 }
 .tile3:hover
 {
-	background-color: #ee4600;
+	background-color: #eeeeee;
 }
 .tile4
 {
@@ -129,6 +130,20 @@ body
 	background-color: #d94348;
 	text-align: center;
 	padding: 10px;
+}
+.tile6
+{
+	margin: 10px;
+	margin-left: 385px;
+	margin-right: 385px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align: center;
+}
+.tile6:hover
+{
+	background-color: #2083c2;
 }
 .yt
 {
