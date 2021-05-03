@@ -2,68 +2,69 @@
 <html lang="pl">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Kamack38 | Youtube | Polska</title>
-    <meta name="description" content="Strona poświęcona Youtuberowi Kamack38. Wejdź i sprawdź!" />
-    <meta name="keywords" content="minecrraft, film, kamack38, csgo, yt, youtube" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="shortcut icon" href="https://i.imgur.com/iipSEa0.png">
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <title>Kamack38 | Youtube | Polska</title>
+  <meta name="description" content="Strona poświęcona Youtuberowi Kamack38. Wejdź i sprawdź!" />
+  <meta name="keywords" content="minecrraft, film, kamack38, csgo, yt, youtube" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="shortcut icon" href="https://i.imgur.com/iipSEa0.png">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
 
-    <script src="js/timer.js"></script>
+  <script src="js/timer.js"></script>
 
-    <script>
-	    var currentTitle = document.title;
+  <script>
+    var currentTitle = document.title;
 
-	    window.onblur = function() { document.title = "We daj suba :D"; }
+    window.onblur = function () {
+      document.title = "We daj suba :D";
+    }
 
-	    window.onfocus = function() { document.title = currentTitle; }
-    </script>
+    window.onfocus = function () {
+      document.title = currentTitle;
+    }
+  </script>
 
 </head>
 
 <body onload="odliczanie();">
 
-  <div id="container"> 
+  <div id="container">
 
-    <div class="rectangle">
-      <div id="logo"><a href="index.html" class="tilelink">Kamack38</a></div>
+    <header>
+      <div><a href="index.html" class="link">Kamack38</a></div>
       <div id="zegar">12:00:00</div>
-      <div style="clear: both;"></div>
-    </div>
-
-    <a href="index.html" class="tilelink">
-      <i class="icon-left-open"></i>Porót do Strony Głównej
-    </a>
-
-    <div class="rectangle">
-      <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="tilelink" target="_blank">
-        <div id="csgo">CS:GO</div>
+    </header>
+    <article>
+      <a href="index.html" class="back">
+        <i class="icon-left-open"></i>Porót do Strony Głównej
       </a>
-      <div style="clear: both;"></div>
-      <a href="https://github.com/kamack38/csgo-config" target="_blank" class="tilelink">
-        <div class="tile6">
+      <header id="csgo">
+        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="link" target="_blank">
+          CS:GO
+        </a>
+      </header>
+      <a href="https://github.com/kamack38/csgo-config" target="_blank" class="link dw">
+        <div class="tile dw t1">
           Ustawienia CS:GO
         </div>
       </a>
-    </div>
 
-    
-    <div class="rectangle">
-      <a href="https://store.steampowered.com/app/526870/Satisfactory/" class="tilelink" target="_blank">
-        <div id="satis">Satisfactory</div>
-      </a>
-      <div style="clear: both;"></div>
-      <a href="https://www.mediafire.com/file/sj8l7v1sx6km9s8/fg.sav/file" target="_blank" class="tilelink">
-        <div class="tile6">
-          Save
-        </div>
-      </a>
-    </div>
-    <div class="rectangle">2020 &copy; Kamack38 - website. Youtuber zaprasza do współpracy  <i class="icon-mail"></i> kamack38.biznes@gmail.com</div>
-	  
+      <header id="satis">
+        <a href="https://store.steampowered.com/app/526870/Satisfactory/" class="link" target="_blank">
+          Satisfactory
+        </a>
+      </header>
+        <a href="https://www.mediafire.com/file/sj8l7v1sx6km9s8/fg.sav/file" target="_blank" class="link dw">
+          <div class="tile dw t1">
+            Save
+          </div>
+        </a>
+  </article>
+  <footer>2020 &copy; Kamack38 - website. Youtuber zaprasza do współpracy<i class="icon-mail"></i>
+    <a id="mail" href="mailto:kamack38@gmail.com">kamack38.biznes@gmail.com</a></footer>
+
   </div>
 </body>
 

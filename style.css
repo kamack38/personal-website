@@ -23,20 +23,17 @@ body {
 
 #csgo {
 	font-family: cs_regular;
-	font-size: 75px;
-	width: 1000px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	font-size: 6em;
 	text-align: center;
+	justify-content: center;
 }
 
 #satis {
 	font-family: satisfontory;
-	font-size: 60px;
-	width: 1000px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	font-size: 4em;
+	justify-content: center;
 	text-align: center;
+	margin-bottom: 2rem;
 }
 
 header {
@@ -46,6 +43,35 @@ header {
 	text-align: center;
 	font-size: 6rem;
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+.back {
+	color: #ffffff;
+	text-decoration: none;
+	align-self: flex-start;
+	font-size: 1.8rem;
+}
+
+.back:hover {
+	text-decoration: underline;
+}
+
+.link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+article {
+	margin: 2rem 2rem 0rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	margin: 1em;
+	font-size: 2rem;
 }
 
 main {
@@ -76,7 +102,7 @@ main {
 	background-color: #2084c2;
 }
 
-.at {
+.at, .as {
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -156,9 +182,9 @@ main {
 	background-color: #060a10;
 }
 
-.as {
-	color: #ffffff;
-	text-decoration: none;
+.dw {
+	height: 240px;
+	width: 100%;
 }
 
 #mail {
@@ -202,6 +228,7 @@ footer {
 	.at {
 		grid-column: span 4;
 	}
+
 	.as {
 		grid-column: span 2;
 	}
@@ -211,9 +238,11 @@ footer {
 	header {
 		font-size: 4rem;
 	}
+
 	.as {
 		grid-column: span 4;
 	}
+
 	footer {
 		font-size: 1.2em;
 	}
