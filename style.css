@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-
 * {
   margin: 0;
 }
@@ -15,13 +12,13 @@ body {
 
 @font-face {
   font-family: cs_regular;
-
+  font-display: swap;
   src: url(font/cs_regular.ttf);
 }
 
 @font-face {
   font-family: satisfontory;
-
+  font-display: swap;
   src: url(font/satisfontory.ttf);
 }
 
