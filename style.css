@@ -1,257 +1,256 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 * {
-	margin: 0;
+  margin: 0;
 }
 
 body {
-	font-display: swap;
-	background-color: #2b7c74;
-	color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+  font-display: swap;
+  background-color: #2b7c74;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
 }
 
 @font-face {
-	font-family: cs_regular;
+  font-family: cs_regular;
 
-	src: url(font/cs_regular.ttf);
+  src: url(font/cs_regular.ttf);
 }
 
 @font-face {
-	font-family: satisfontory;
+  font-family: satisfontory;
 
-	src: url(font/satisfontory.ttf);
+  src: url(font/satisfontory.ttf);
 }
 
 #csgo {
-	font-family: cs_regular;
-	font-size: 6em;
-	text-align: center;
-	justify-content: center;
+  font-family: cs_regular;
+  font-size: 6em;
+  text-align: center;
+  justify-content: center;
 }
 
 #satis {
-	font-family: satisfontory;
-	font-size: 4em;
-	justify-content: center;
-	text-align: center;
-	margin-bottom: 2rem;
+  font-family: satisfontory;
+  font-size: 4em;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	padding: 2rem 2rem 0rem;
-	text-align: center;
-	font-size: 6rem;
-	font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 0rem;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .back {
-	color: #ffffff;
-	text-decoration: none;
-	align-self: flex-start;
-	font-size: 1.8rem;
+  color: #ffffff;
+  text-decoration: none;
+  align-self: flex-start;
+  font-size: 1.8rem;
 }
 
 .back:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .link {
-	color: #ffffff;
-	text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 article {
-	margin: 2rem 2rem 0rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  margin: 2rem 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
-	margin: 1em;
-	font-size: 2rem;
+  margin: 1em;
+  font-size: 2rem;
 }
 
 main {
-	margin: 2rem 2rem;
-	display: grid;
-	gap: 2rem;
-	grid-template-columns: repeat(2, 2fr) repeat(4, 1fr);
-	grid-auto-rows: 240px;
+  margin: 2rem 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 2fr) repeat(4, 1fr);
+  grid-auto-rows: 240px;
 }
 
 .tile {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	width: 100%;
-	border-radius: 16px;
-	box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-	overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  overflow: hidden;
 }
 
 .t1 {
-	background-color: #3095d3;
+  background-color: #3095d3;
 }
 
 .t1:hover {
-	background-color: #2084c2;
+  background-color: #2084c2;
 }
 
-.at, .as {
-	color: #ffffff;
-	text-decoration: none;
+.at,
+.as {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .gt {
-	background-color: #24292e;
-	text-align: center;
+  background-color: #24292e;
+  text-align: center;
 }
 
 .gt:hover {
-	background-color: #13181d;
+  background-color: #13181d;
 }
 
 .sel {
-	background-color: #ffffff;
+  background-color: #ffffff;
 
-	text-align: center;
-	color: black;
+  text-align: center;
+  color: black;
 }
 
 .sel:hover {
-	background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .dc {
-	background-color: #072f5b;
-	background-image: url('img/discordbanner.png');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-color: #072f5b;
+  background-image: url("img/discordbanner.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .adc {
-	color: #ffffff;
-	text-decoration: none;
-	grid-column: span 2;
+  color: #ffffff;
+  text-decoration: none;
+  grid-column: span 2;
 }
 
 .vd {
-	grid-row: span 2;
-	grid-column: span 4;
-	background-color: #d94348;
+  grid-row: span 2;
+  grid-column: span 4;
+  background-color: #d94348;
 }
 
 .yt {
-	background-color: #d94348;
+  background-color: #d94348;
 }
 
 .yt:hover {
-	background-color: #c83237;
+  background-color: #c83237;
 }
 
 .th {
-	background-color: #6441A4;
-
+  background-color: #6441a4;
 }
 
 .th:hover {
-	background-color: #5330a4;
+  background-color: #5330a4;
 }
 
 .tw {
-	background-color: #1DA1F2;
-
+  background-color: #1da1f2;
 }
 
 .tw:hover {
-	background-color: #0ca0e1;
+  background-color: #0ca0e1;
 }
 
 .st {
-	background-color: #171a21;
-
+  background-color: #171a21;
 }
 
 .st:hover {
-	background-color: #060a10;
+  background-color: #060a10;
 }
 
 .dw {
-	height: 240px;
-	width: 100%;
+  height: 240px;
+  width: 100%;
 }
 
 #mail {
-	text-decoration: none;
-	color: #f3f3f3;
+  text-decoration: none;
+  color: #f3f3f3;
 }
 
 #mail:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer {
-	font-size: 1.5em;
-	text-align: center;
-	padding: 0rem 2rem 2rem;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0rem 2rem 2rem;
 }
 
 @media screen and (max-width: 1000px) {
-	header {
-		flex-direction: column;
-	}
+  header {
+    flex-direction: column;
+  }
 
-	main {
-		grid-template-columns: repeat(4, 1fr);
-	}
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
-	.at {
-		grid-column: span 2;
-	}
+  .at {
+    grid-column: span 2;
+  }
 
-	.vd {
-		grid-row: 3 / 5;
-	}
+  .vd {
+    grid-row: 3 / 5;
+  }
 
-	.adc {
-		grid-column: span 4;
-	}
+  .adc {
+    grid-column: span 4;
+  }
 }
 
 @media screen and (max-width: 600px) {
-	.at {
-		grid-column: span 4;
-	}
+  .at {
+    grid-column: span 4;
+  }
 
-	.as {
-		grid-column: span 2;
-	}
+  .as {
+    grid-column: span 2;
+  }
 }
 
 @media screen and (max-width: 400px) {
-	header {
-		font-size: 4rem;
-	}
+  header {
+    font-size: 4rem;
+  }
 
-	.dc {
-		background-image: url('img/ipplogodc.png');
-	}
+  .dc {
+    background-image: url("img/ipplogodc.webp");
+  }
 
-	.as {
-		grid-column: span 4;
-	}
+  .as {
+    grid-column: span 4;
+  }
 
-	footer {
-		font-size: 1.1em;
-	}
+  footer {
+    font-size: 1.1em;
+  }
 }
